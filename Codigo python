@@ -1,0 +1,8 @@
+#Genera numeros aleatorios cada 5 s
+import time
+import random 
+r=random.randint(1,10)
+i = 1
+while i <= 2:
+    time.sleep(5)
+    print(r)
